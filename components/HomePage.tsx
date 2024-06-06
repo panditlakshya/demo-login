@@ -58,6 +58,7 @@ const HomePage = () => {
             </label>
           </div>
           <button
+            type="submit"
             className="bg-blue-500 text-sm text-white px-2 py-1 rounded mt-4"
             onClick={handleLogin}
           >
