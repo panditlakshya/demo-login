@@ -69,7 +69,7 @@ const HomePage = () => {
         <div>
           <h2>Welcome, {username}!</h2>
           <CSVLink data={csvData} filename={"data.csv"}>
-            <button>Download CSV</button>
+            <button id="downloadCSVButton">Download CSV</button>
           </CSVLink>
         </div>
       )}
