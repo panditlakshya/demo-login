@@ -37,6 +37,7 @@ const HomePage = () => {
             <label className="text-sm px-2">
               Username:
               <input
+                name="username"
                 className="border p-1 rounded-sm ml-1"
                 type="text"
                 value={username}
@@ -48,6 +49,7 @@ const HomePage = () => {
             <label className="text-sm px-2">
               Password:
               <input
+                name="password"
                 className="border p-1 rounded-sm ml-1"
                 type="password"
                 value={password}
